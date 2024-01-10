@@ -1,0 +1,13 @@
+{
+  "http": {
+    "port": 8080
+  },
+  "db": {
+    "host": "104.243.16.117",
+    "port": 54321,
+    "database": "shengmu",
+    "user": "postgres",
+    "password": "sm2023",
+    "poolSize": 5
+  }
+}

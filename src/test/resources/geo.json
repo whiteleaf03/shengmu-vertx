@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 6142,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.33165658,
+          29.68709623
+        ]
+      },
+      "bbox": [
+        121.33165658,
+        29.68709623,
+        121.33165658,
+        29.68709623
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 7045,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.32300386,
+          29.68295426
+        ]
+      },
+      "bbox": [
+        121.32300386,
+        29.68295426,
+        121.32300386,
+        29.68295426
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 7635,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.31413204,
+          29.67825219
+        ]
+      },
+      "bbox": [
+        121.31413204,
+        29.67825219,
+        121.31413204,
+        29.67825219
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 8166,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.30502409,
+          29.67410486
+        ]
+      },
+      "bbox": [
+        121.30502409,
+        29.67410486,
+        121.30502409,
+        29.67410486
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 9062,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.29487783,
+          29.67020372
+        ]
+      },
+      "bbox": [
+        121.29487783,
+        29.67020372,
+        121.29487783,
+        29.67020372
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 9799,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.28635936,
+          29.66686517
+        ]
+      },
+      "bbox": [
+        121.28635936,
+        29.66686517,
+        121.28635936,
+        29.66686517
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 10125,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.27583425,
+          29.66602684
+        ]
+      },
+      "bbox": [
+        121.27583425,
+        29.66602684,
+        121.27583425,
+        29.66602684
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 11020,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.26556367,
+          29.66515135
+        ]
+      },
+      "bbox": [
+        121.26556367,
+        29.66515135,
+        121.26556367,
+        29.66515135
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 11962,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.25629371,
+          29.66175522
+        ]
+      },
+      "bbox": [
+        121.25629371,
+        29.66175522,
+        121.25629371,
+        29.66175522
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 12951,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.25137048,
+          29.65408047
+        ]
+      },
+      "bbox": [
+        121.25137048,
+        29.65408047,
+        121.25137048,
+        29.65408047
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 13609,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.24706454,
+          29.64605308
+        ]
+      },
+      "bbox": [
+        121.24706454,
+        29.64605308,
+        121.24706454,
+        29.64605308
+      ]
+    },
+    {
+      "type": "Feature",
+      "id": 14414,
+      "properties": {
+        "_draw_type": "point"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2405686,
+          29.63885191
+        ]
+      },
+      "bbox": [
+        121.2405686,
+        29.63885191,
+        121.2405686,
+        29.63885191
+      ]
+    }
+  ]
+}

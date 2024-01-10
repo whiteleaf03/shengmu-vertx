@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+}
+//
+def vertxVersion = '4.4.4'
+def groovyVersion = '4.0.15'
+
+mainClassName = 'com.aruistar.shengmu.launcher.AruisLauncher'
+def mainVerticleName = 'com.aruistar.shengmu.http.HttpVerticle'
+
+shadowJar {
+
+    manifest {
+        attributes 'Main-Verticle': mainVerticleName
+    }
+    mergeServiceFiles {
+        include 'META-INF/services/io.vertx.core.spi.VerticleFactory'
+    }
+
+}
+
+group 'com.auristar'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "io.vertx:vertx-core:$vertxVersion"
+    implementation "io.vertx:vertx-web:$vertxVersion"
+    implementation 'com.ongres.scram:client:2.1'
+
+    implementation "io.vertx:vertx-pg-client:$vertxVersion"
+//    implementation "io.vertx:vertx-lang-groovy:$vertxVersion"
+
+    implementation "org.apache.groovy:groovy:${groovyVersion}"
+    implementation "org.apache.groovy:groovy-json:${groovyVersion}"
+
+    testImplementation "org.apache.groovy:groovy-sql:${groovyVersion}"
+    testImplementation 'org.postgresql:postgresql:42.6.0'
+
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.4.11'
+    implementation group: 'org.slf4j', name: 'jul-to-slf4j', version: '2.0.9'
+}
+
+test {
+    useJUnitPlatform()
+}

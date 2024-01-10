@@ -1,0 +1,4 @@
+2024-01-10 10:16:56.723 ｜ INFO  ｜ vert.x-eventloop-thread-1 ｜ com.aruistar.shengmu.http.HttpVerticle : 321 ｜ {"http":{"port":8080},"db":{"host":"104.243.16.117","port":54321,"database":"shengmu","user":"postgres","password":"sm2023","poolSize":5}}
+2024-01-10 10:16:57.044 ｜ INFO  ｜ vert.x-eventloop-thread-1 ｜ com.aruistar.shengmu.http.HttpVerticle : 321 ｜ HTTP service run on port 8080
+2024-01-10 10:16:57.046 ｜ INFO  ｜ vert.x-eventloop-thread-0 ｜ i.v.c.impl.launcher.commands.VertxIsolatedDeployer : ? ｜ Succeeded in deploying verticle
+2024-01-10 10:16:58.235 ｜ INFO  ｜ vert.x-eventloop-thread-1 ｜ com.aruistar.shengmu.http.HttpVerticle : 321 ｜ db connect success.
